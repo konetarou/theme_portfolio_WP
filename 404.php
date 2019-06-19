@@ -6,7 +6,6 @@
 
 
 
-
 <p>
   Spice up your type with CSS
   <span>
