@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font: 400 1em/1.5 "Neuton";
   background: #090d00;
@@ -30,6 +31,7 @@ p span {
   /* Clip Background Image */
   background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
   -webkit-background-clip: text;
+  /* text の文字部分を背景画像にクリッピングする */
   background-clip: text;
   /* Animate Background Image */
   -webkit-text-fill-color: transparent;
