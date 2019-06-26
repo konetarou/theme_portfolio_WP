@@ -525,7 +525,7 @@
 }
 
 .bd-footer a:hover, .bd-footer a:focus {
-  color: #007bff;
+  color: #00529D;
 }
 
 .bd-footer p {
@@ -1208,14 +1208,194 @@
   background-color: #343a40;
 }
 
+.swatch-santorini-greekblue {
+  color: #fff;
+  background-color: #0065B2;
+}
+
+.swatch-santorini-blueeyes {
+  color: #212529;
+  background-color: #67A5DA;
+}
+
+.swatch-santorini-sacredwhite {
+  color: #212529;
+  background-color: #FDFDFB;
+}
+
+.swatch-santorini-limestone {
+  color: #212529;
+  background-color: #E5EAEB;
+}
+
+.swatch-santorini-parthenon {
+  color: #212529;
+  background-color: #C8BCA0;
+}
+
+.swatch-santorini-acropolis {
+  color: #212529;
+  background-color: #C19969;
+}
+
+.swatch-santorini-stonepavement {
+  color: #212529;
+  background-color: #B8C2C8;
+}
+
+.swatch-santorini-morningwall {
+  color: #212529;
+  background-color: #FBE4E2;
+}
+
+.swatch-santorini-bougainvillea {
+  color: #fff;
+  background-color: #DB077F;
+}
+
+.swatch-charm-chineasered {
+  color: #fff;
+  background-color: #E13816;
+}
+
+.swatch-charm-goodluckyellow {
+  color: #212529;
+  background-color: #E3D600;
+}
+
+.swatch-charm-chineaseblue {
+  color: #fff;
+  background-color: #008DD6;
+}
+
+.swatch-charm-betterfortune {
+  color: #212529;
+  background-color: #EEA800;
+}
+
+.swatch-charm-orientpurple {
+  color: #fff;
+  background-color: #9F0082;
+}
+
+.swatch-charm-warmred {
+  color: #fff;
+  background-color: #E94C46;
+}
+
+.swatch-charm-signalred {
+  color: #fff;
+  background-color: #D20446;
+}
+
+.swatch-charm-puregreen {
+  color: #fff;
+  background-color: #008B42;
+}
+
+.swatch-charm-vividblue {
+  color: #fff;
+  background-color: #253893;
+}
+
+.swatch-frill-frenchred {
+  color: #fff;
+  background-color: #C82136;
+}
+
+.swatch-frill-frenchwhite {
+  color: #212529;
+  background-color: #FFFEF3;
+}
+
+.swatch-frill-frenchblue {
+  color: #fff;
+  background-color: #0086C0;
+}
+
+.swatch-frill-strawberrymilk {
+  color: #212529;
+  background-color: #DF8C91;
+}
+
+.swatch-frill-meringue {
+  color: #212529;
+  background-color: #FDF0F1;
+}
+
+.swatch-frill-ladyblue {
+  color: #212529;
+  background-color: #95BED7;
+}
+
+.swatch-frill-rosered {
+  color: #fff;
+  background-color: #91181D;
+}
+
+.swatch-frill-strawberrypafait {
+  color: #fff;
+  background-color: #DB5F62;
+}
+
+.swatch-frill-happybird {
+  color: #fff;
+  background-color: #00529D;
+}
+
+.swatch-bright-orientalblack {
+  color: #fff;
+  background-color: #280017;
+}
+
+.swatch-bright-americanpink {
+  color: #212529;
+  background-color: #DF91BC;
+}
+
+.swatch-bright-lavenderdream {
+  color: #212529;
+  background-color: #BBADD4;
+}
+
+.swatch-bright-marinabay {
+  color: #212529;
+  background-color: #ABD9BC;
+}
+
+.swatch-bright-cresentmoon {
+  color: #212529;
+  background-color: #F7F5B0;
+}
+
+.swatch-bright-mirrorball {
+  color: #212529;
+  background-color: #C3C3C4;
+}
+
+.swatch-bright-featherfanpink {
+  color: #fff;
+  background-color: #E44191;
+}
+
+.swatch-bright-bodyconscious {
+  color: #fff;
+  background-color: #E62954;
+}
+
+.swatch-bright-twinclepurple {
+  color: #fff;
+  background-color: #7D3790;
+}
+
 .swatch-primary {
   color: #fff;
-  background-color: #007bff;
+  background-color: #00529D;
 }
 
 .swatch-secondary {
-  color: #fff;
-  background-color: #6c757d;
+  color: #212529;
+  background-color: #95BED7;
 }
 
 .swatch-success {
@@ -1225,7 +1405,7 @@
 
 .swatch-info {
   color: #fff;
-  background-color: #17a2b8;
+  background-color: #0086C0;
 }
 
 .swatch-warning {
@@ -1613,7 +1793,7 @@
 
 .anchorjs-link {
   font-weight: 400;
-  color: rgba(0, 123, 255, 0.5);
+  color: rgba(0, 82, 157, 0.5);
   -webkit-transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
   transition: color 0.15s ease-in-out, opacity 0.15s ease-in-out;
 }
@@ -1626,7 +1806,7 @@
 }
 
 .anchorjs-link:hover {
-  color: #007bff;
+  color: #00529D;
   text-decoration: none;
 }
 

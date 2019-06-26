@@ -45,6 +45,55 @@ $green:   #28a745 !default;
 $teal:    #20c997 !default;
 $cyan:    #17a2b8 !default;
 
+// addiction color
+
+// santorini,GREECE P230
+$santorini_greekblue: #0065B2;
+$santorini_blueeyes: #67A5DA;
+$santorini_sacredwhite: #FDFDFB;
+$santorini_limestone: #E5EAEB;
+$santorini_parthenon: #C8BCA0;
+$santorini_acropolis: #C19969;
+$santorini_stonepavement: #B8C2C8;
+$santorini_morningwall: #FBE4E2;
+$santorini_bougainvillea: #DB077F;
+
+// Good Luck Charm found in Chinatown P144
+$charm_chineasered: #E13816;
+$charm_goodluckyellow: #E3D600;
+$charm_chineaseblue: #008DD6;
+$charm_betterfortune: #EEA800;
+$charm_orientpurple: #9F0082;
+$charm_warmred: #E94C46;
+$charm_signalred: #D20446;
+$charm_puregreen: #008B42;
+$charm_vividblue: #253893;
+
+// Frill and Lace in P58
+$frill_frenchred: #C82136;
+$frill_frenchwhite: #FFFEF3;
+$frill_frenchblue: #0086C0;
+$frill_strawberrymilk: #DF8C91;
+$frill_meringue: #FDF0F1;
+$frill_ladyblue: #95BED7;
+$frill_rosered: #91181D;
+$frill_strawberrypafait: #DB5F62;
+$frill_happybird: #00529D;
+
+// Black and Bright Color in P256
+$bright_orientalblack: #280017;
+$bright_americanpink: #DF91BC;
+$bright_lavenderdream: #BBADD4;
+$bright_marinabay: #ABD9BC;
+$bright_cresentmoon: #F7F5B0;
+$bright_mirrorball: #C3C3C4;
+$bright_featherfanpink: #E44191;
+$bright_bodyconscious: #E62954;
+$bright_twinclepurple: #7D3790;
+
+
+
+
 $colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
 $colors: map-merge(
@@ -61,7 +110,52 @@ $colors: map-merge(
     "cyan":       $cyan,
     "white":      $white,
     "gray":       $gray-600,
-    "gray-dark":  $gray-800
+    "gray-dark":  $gray-800,
+    // add santorini
+    "santorini-greekblue": $santorini_greekblue,
+    "santorini-blueeyes": $santorini_blueeyes,
+    "santorini-sacredwhite": $santorini_sacredwhite,
+    "santorini-limestone": $santorini_limestone,
+    "santorini-parthenon": $santorini_parthenon,
+    "santorini-acropolis": $santorini_acropolis,
+    "santorini-stonepavement": $santorini_stonepavement,
+    "santorini-morningwall": $santorini_morningwall,
+    "santorini-bougainvillea": $santorini_bougainvillea,
+    // add charm
+    "charm-chineasered": $charm_chineasered,
+    "charm-goodluckyellow": $charm_goodluckyellow,
+    "charm-chineaseblue": $charm_chineaseblue,
+    "charm-betterfortune": $charm_betterfortune,
+    "charm-orientpurple": $charm_orientpurple,
+    "charm-warmred": $charm_warmred,
+    "charm-signalred": $charm_signalred,
+    "charm-puregreen": $charm_puregreen,
+    "charm-vividblue": $charm_vividblue,
+    // addi frill
+    "frill-frenchred": $frill_frenchred,
+    "frill-frenchwhite": $frill_frenchwhite,
+    "frill-frenchblue": $frill_frenchblue,
+    "frill-strawberrymilk": $frill_strawberrymilk,
+    "frill-meringue": $frill_meringue,
+    "frill-ladyblue": $frill_ladyblue,
+    "frill-rosered": $frill_rosered,
+    "frill-strawberrypafait": $frill_strawberrypafait,
+    "frill-happybird": $frill_happybird,
+    // add bright
+    "bright-orientalblack": $bright_orientalblack,
+    "bright-americanpink": $bright_americanpink,
+    "bright-lavenderdream": $bright_lavenderdream,
+    "bright-marinabay": $bright_marinabay,
+    "bright-cresentmoon": $bright_cresentmoon,
+    "bright-mirrorball": $bright_mirrorball,
+    "bright-featherfanpink": $bright_featherfanpink,
+    "bright-bodyconscious": $bright_bodyconscious,
+    "bright-twinclepurple": $bright_twinclepurple,
+
+
+
+
+
   ),
   $colors
 );
@@ -74,6 +168,17 @@ $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
 $dark:          $gray-800 !default;
+
+$primary:       $frill_happybird;
+$secondary:     $frill_ladyblue;
+$success:       $green;
+$info:          $frill_frenchblue;
+$warning:       $yellow;
+$danger:        $red;
+$light:         $gray-100;
+$dark:          $gray-800;
+$text-muted: $frill_strawberrymilk;
+
 
 $theme-colors: () !default;
 // stylelint-disable-next-line scss/dollar-variable-default
@@ -116,7 +221,7 @@ $enable-hover-media-query:                    false !default; // Deprecated, no 
 $enable-grid-classes:                         true !default;
 $enable-pointer-cursor-for-buttons:           true !default;
 $enable-print-styles:                         true !default;
-$enable-responsive-font-sizes:                false !default;
+$enable-responsive-font-sizes:                true;// false !default;
 $enable-validation-icons:                     true !default;
 $enable-deprecation-messages:                 true !default;
 
