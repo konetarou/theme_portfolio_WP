@@ -1,9 +1,9 @@
 <?php
 
-// アイキャッチ有効化
-add_theme_support('post-thumbnails');
 
+// ----------------------------------------------------------------------
 // メニュー追加
+// ----------------------------------------------------------------------
 function menu_setup() {  
     register_nav_menus( array(
       'global' => 'グローバルメニュー',
@@ -17,7 +17,9 @@ add_filter('nav_menu_css_class' , 'special_nav_class' , 10 , 2);
 
 // require_once(‘class-wp-bootstrap-navwalker.php’); // wp-bootstrap-navwalker.php読み込み
 
-
+// ----------------------------------------------------------------------
+// bootstrap4ナビゲーションメニュー用タグ追加
+// ----------------------------------------------------------------------
 function special_nav_class ($classes, $item) {
     if(in_array('current-menu-item', $classes)){ 
       $classes[] = 'active '; // class="active"追加
@@ -70,24 +72,29 @@ function bootstrap_pagination(){
   }
 }
 
-// ウィジェット
+// ----------------------------------------------------------------------
+// ウィジェット機能の追加
+// ----------------------------------------------------------------------
 function arphabet_widgets_init() {
 	register_sidebar( array(
 		'name' => 'blog_widget',
     'id' => 'blog_right_1',
-		'before_widget' => '<div>',
+		'before_widget' => '<div class="widget">',
 		'after_widget' => '</div>',
-		'before_title' => '<h4 class="rounded">',
+		'before_title' => '<h4 class="widget-title">',
 		'after_title' => '</h4>',
 	) );
 }
 add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 
-/////////////////////////////////////////////
+// ----------------------------------------------------------------------
 //コピペ一発でWordpressの投稿時にアイキャッチを自動設定するカスタマイズ方法（YouTube対応版）
 //http://nelog.jp/auto-post-thumbnail-custum
-/////////////////////////////////////////////
+// ----------------------------------------------------------------------
+
+// アイキャッチ有効化
+add_theme_support('post-thumbnails');
 
 //WP_Filesystemの利用
 require_once(ABSPATH . '/wp-admin/includes/image.php');
@@ -287,7 +294,10 @@ add_filter( 'get_image_tag_class',
 	}
 );
 
+// ----------------------------------------------------------------------
+// 投稿タグの設定
 // the_tagsにクラス追加
+// ----------------------------------------------------------------------
 function add_class_the_tags($html){
   $postid = get_the_ID();
   $html = str_replace('<a','<a class="text-info"',$html);

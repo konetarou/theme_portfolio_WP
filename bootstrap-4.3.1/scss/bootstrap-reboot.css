@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*!
  * Bootstrap Reboot v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
@@ -32,6 +33,33 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+}
+
+@media (min-width: 1200px) {
+  /* 1200px以上*/
+  h1 {
+    font-size: 3.6rem;
+    /* 36px*/
+  }
+  h2 {
+    font-size: 2.4rem;
+    /* 24px*/
+  }
+}
+
+@media screen and (max-width: 640px) {
+  /* 640px以下*/
+  body {
+    line-height: 2;
+  }
+  h1 {
+    font-size: 2.4rem;
+    /* 24px*/
+  }
+  h2 {
+    font-size: 2rem;
+    /* 20px*/
+  }
 }
 
 [tabindex="-1"]:focus {

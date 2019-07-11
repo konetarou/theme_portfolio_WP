@@ -46,12 +46,33 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 body {
   margin: 0; // 1
   font-family: $font-family-base;
+  // font-size: calc(100vw / 32); // add
   @include font-size($font-size-base);
   font-weight: $font-weight-base;
   line-height: $line-height-base;
   color: $body-color;
   text-align: left; // 3
   background-color: $body-bg; // 2
+}
+
+@media (min-width: 1200px) {/* 1200px以上*/
+  h1 {
+      font-size: 3.6rem;/* 36px*/
+  }
+  h2 {
+      font-size: 2.4rem;/* 24px*/
+  }
+}
+@media screen and (max-width: 640px) {/* 640px以下*/
+  body{
+  line-height: 2;
+  }
+  h1{
+      font-size: 2.4rem;/* 24px*/
+  }
+  h2 {
+      font-size: 2rem;/* 20px*/
+  }
 }
 
 // Suppress the focus outline on elements that cannot be accessed via keyboard.

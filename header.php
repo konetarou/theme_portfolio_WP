@@ -20,6 +20,7 @@ wp_head();
 		<link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP" rel="stylesheet">
 
 		<link rel="stylesheet" href="<?php bloginfo ('stylesheet_url'); ?>" type="text/css" />
+		<title></title>
 		
 	</HEAD>
 
